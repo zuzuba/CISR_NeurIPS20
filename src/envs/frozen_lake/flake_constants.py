@@ -1,0 +1,7 @@
+LEFT = 0
+DOWN = 1
+RIGHT = 2
+UP = 3
+REWARD_MAPPING = {b'G': 6, b'S': -0.01, b'F': -0.01, b'H': 0}
+TERMINAL_STATES = b'GH'
+NOT_SLIPPING_PROB = 0.8
